@@ -1,0 +1,35 @@
+.app {
+    width: 100%;
+    max-width: 1200px;
+    padding: 25px 15px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    max-width: 800px;
+    min-height: 195px;
+    margin: 0 auto;
+    padding: 15px;
+    padding-left: 250px;
+    border-radius: 15px;
+  
+    position: relative;
+    background-color: rgba(229, 234, 238, 0.596);
+    margin-bottom: 40px;
+  }
+  
+  .card__image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+  
+    position: absolute;
+    top: -20px;
+    left: 15px;
+  }
+  
+  .card-body-stars {
+    display: flex;
+    padding: 15px 0;
+  }
